@@ -6,13 +6,14 @@ We do want to keep it as part of the build to keep things simple (can deploy to 
 
 Todos:
 
-- [x] support live reload
-- [x] support routes within the app/routes directory
-- [x] support routes outside the app/routes directory
-- [ ] support all the route filename conventions (like `.`, `[`, and `]`)
-- [x] support customizing the compilation of MDX (plugins etc).
-- [x] support importing relative, absolute, and `~`-prefixed paths.
-- [ ] support custom components\*
+- [x] live reload
+- [x] routes within the app/routes directory
+- [x] routes outside the app/routes directory
+- [ ] all the route filename conventions (like `.`, `[`, and `]`)
+- [x] customizing the compilation of MDX (plugins etc).
+- [x] importing relative, absolute, and `~`-prefixed paths.
+- [ ] custom components\*
+- [ ] add a `loader` export that responds with the frontmatter
 
 \*We already have support for custom components, just make a variable binding in the MDX file called `components` and that'll work. But it would be more sensible to say people need to `export` something called `components` and use that instead. This will be a little tricky, but totally possible.
 
