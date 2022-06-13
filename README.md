@@ -40,8 +40,9 @@ You can add `frontmatter` to your MDX file that will be returned from a generate
 
   ```yaml
   ---
-  meta: title: `My Blog - ${data.title}`
-  charset: utf-8
+  meta:
+    title: `My Blog - ${data.title}`
+    charset: utf-8
   ---
   ```
 
