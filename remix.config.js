@@ -7,8 +7,9 @@ module.exports = {
   ignoredRouteFiles: ["**/.*", "**/*.mdx"],
   routes: async (defineRoutes) => {
     const mdxRouteInfo = await remdx.prepareMdxRoutes();
-    return defineRoutes((route) => {
+    const routes = defineRoutes((route) => {
       remdx.createMdxRoutes(mdxRouteInfo, route);
     });
+    return routes;
   },
 };
