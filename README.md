@@ -1,3 +1,7 @@
+DEPRECATED (can you deprecate something that wasn't released?)
+
+You can still totally borrow the ideas from this repo, but we've decided to take a different approach to these problems that I think people will like even better. Stay tuned.
+
 # Remix MDX
 
 I'm trying to improve upon built-in MDX support in Remix, but I want to do it outside of Remix. I'm hoping someone can take this over as a separate library and serve the MDX community better than the built-in support does.
